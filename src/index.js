@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from "react";
 import ReactDOM from "react-dom";
 
 function Counter() {
-  const defaultDelay = 2000;
+  const defaultDelay = 1000;
 
   const [startedCount, setStartedCount] = useState(0);
   const [finishedCount, setFinishedCount] = useState(0);
